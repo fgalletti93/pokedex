@@ -1,3 +1,15 @@
+//navbar code
+
+const hamburguerBtn = document.getElementById('hamburguerBtn');
+const navBar = document.getElementById('navBar');
+
+hamburguerBtn.addEventListener('click', () => {
+    navBar.classList.toggle('open');
+});
+
+
+//pokedex code 
+
 const pokedex = document.getElementById('pokedex');
 const pokeCache = {};
 
